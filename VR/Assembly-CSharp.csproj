@@ -51,9 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Chibi Mummy\Misc\Scripts\buttonControl_script.cs" />
+     <Compile Include="Assets\Chibi Mummy\Misc\Scripts\CharMovement.cs" />
+     <Compile Include="Assets\Script\Basic_Enemy.cs" />
+     <Compile Include="Assets\Script\BasicEnemy.cs" />
+     <Compile Include="Assets\Script\Delay.cs" />
+     <Compile Include="Assets\Script\Enemy_Class.cs" />
+     <Compile Include="Assets\Script\EnemyClass.cs" />
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\Scenechange.cs" />
+     <Compile Include="Assets\Script\seePlayer.cs" />
+     <Compile Include="Assets\Script\Wander.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Chibi Mummy\readme.txt" />
      <None Include="Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
