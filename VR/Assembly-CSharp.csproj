@@ -56,6 +56,8 @@
      <Compile Include="Assets\Script\BasicEnemy.cs" />
      <Compile Include="Assets\Script\Delay.cs" />
      <Compile Include="Assets\Script\EnemyClass.cs" />
+     <Compile Include="Assets\Script\GamOver.cs" />
+     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\Scenechange.cs" />
      <Compile Include="Assets\Script\seePlayer.cs" />
