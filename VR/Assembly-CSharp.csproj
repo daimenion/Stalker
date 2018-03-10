@@ -53,10 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Chibi Mummy\Misc\Scripts\buttonControl_script.cs" />
      <Compile Include="Assets\Chibi Mummy\Misc\Scripts\CharMovement.cs" />
-     <Compile Include="Assets\Script\Basic_Enemy.cs" />
      <Compile Include="Assets\Script\BasicEnemy.cs" />
      <Compile Include="Assets\Script\Delay.cs" />
-     <Compile Include="Assets\Script\Enemy_Class.cs" />
      <Compile Include="Assets\Script\EnemyClass.cs" />
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\Scenechange.cs" />

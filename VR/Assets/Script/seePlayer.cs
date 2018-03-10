@@ -20,11 +20,14 @@ public class seePlayer : MonoBehaviour {
 	void Update () {
 		if (CanSeeTarget ()) {
 			transform.LookAt (target.position);
-			transform.Rotate(new Vector3 (0, 0, 0),Space.Self);
+			transform.Rotate (new Vector3 (0, 0, 0), Space.Self);
 			Vector3 dir = target.position - transform.position;
 			float distancethis = speed * Time.deltaTime;
 			transform.Translate (dir.normalized * distancethis, Space.World);
-
+			spotLight.color = Color.red;
+		} else {
+			spotLight.color = Color.white;
+			transform.Rotate (0,50*Time.deltaTime,0);
 		}
 	}
 	bool CanSeeTarget(){
