@@ -21,8 +21,8 @@ public class GamOver : MonoBehaviour {
 
     void OnTriggerEnter(Collider c)
     {
-        if (c.gameObject.tag == "Player")
-            LoadScene(index);
+		if (Keys.keycount== 4&&c.gameObject.tag=="Player")
+			LoadScene(2);
     }
     public void LoadScene(int SceneIndex)
     {

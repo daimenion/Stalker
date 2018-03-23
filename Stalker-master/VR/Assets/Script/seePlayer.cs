@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class seePlayer : MonoBehaviour {
 	public Light spotLight;
@@ -17,7 +18,6 @@ public class seePlayer : MonoBehaviour {
 		target = GameObject.FindGameObjectWithTag ("Player").transform;
 		viewAngle = spotLight.spotAngle;
 		m_Animator = gameObject.GetComponent<Animator> ();
-		detected = false;
 	}
 	
 	// Update is called once per frame
@@ -29,14 +29,13 @@ public class seePlayer : MonoBehaviour {
 			float distancethis = speed * Time.deltaTime;
 			transform.Translate (dir.normalized * distancethis, Space.World);
 			spotLight.color = Color.red;
-			m_Animator.SetBool ("detect", false);
-				m_Animator.Play ("Running");
+			m_Animator.SetBool ("detected", true);
 
 				
 		} else {
 			spotLight.color = Color.white;
 			transform.Rotate (0,50*Time.deltaTime,0);
-			m_Animator.SetBool ("detect", true);
+			m_Animator.SetBool ("detected", false);
 		}
 	}
 	bool CanSeeTarget(){
@@ -49,5 +48,15 @@ public class seePlayer : MonoBehaviour {
 			}
 		}
 		return false;
+	}
+	void OnTriggerEnter(Collider c)
+	{
+		if (c.gameObject.tag=="Player")
+			LoadScene(3);
+			}
+	public void LoadScene(int SceneIndex)
+	{
+
+		SceneManager.LoadScene(SceneIndex);
 	}
 }
