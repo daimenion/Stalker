@@ -10,6 +10,7 @@ public class seePlayer : MonoBehaviour {
 	float viewAngle;
 	Transform target;
 	public Animator m_Animator;
+	public AudioSource scream;
 	bool detected;
 
 	public float speed = 5f;
@@ -18,6 +19,7 @@ public class seePlayer : MonoBehaviour {
 		target = GameObject.FindGameObjectWithTag ("Player").transform;
 		viewAngle = spotLight.spotAngle;
 		m_Animator = gameObject.GetComponent<Animator> ();
+		scream = gameObject.GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -29,13 +31,15 @@ public class seePlayer : MonoBehaviour {
 			float distancethis = speed * Time.deltaTime;
 			transform.Translate (dir.normalized * distancethis, Space.World);
 			spotLight.color = Color.red;
-			m_Animator.SetBool ("detected", true);
+			m_Animator.SetTrigger ("run");
+			scream.enabled = true;
 
 				
 		} else {
 			spotLight.color = Color.white;
 			transform.Rotate (0,50*Time.deltaTime,0);
 			m_Animator.SetBool ("detected", false);
+			scream.enabled = false;
 		}
 	}
 	bool CanSeeTarget(){

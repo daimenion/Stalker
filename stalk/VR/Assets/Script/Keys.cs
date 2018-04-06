@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Keys : MonoBehaviour {
 	public static int keycount=0;
+	public GameObject key;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,6 +18,7 @@ public class Keys : MonoBehaviour {
 		if (c.tag == "Player") {
 			Destroy(this.gameObject);
 			keycount++;
+			key.SetActive (true);
 		}
 	}
 }

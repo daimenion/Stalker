@@ -55,7 +55,7 @@
      <None Include="Assets\Models\Key\readME keys.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Chibi Mummy\readme.txt" />
-     <None Include="Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
+     <None Include="Assets\External Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
