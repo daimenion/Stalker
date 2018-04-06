@@ -31,7 +31,7 @@ public class seePlayer : MonoBehaviour {
 			float distancethis = speed * Time.deltaTime;
 			transform.Translate (dir.normalized * distancethis, Space.World);
 			spotLight.color = Color.red;
-			m_Animator.SetTrigger ("run");
+			m_Animator.SetBool ("detected", true);
 			scream.enabled = true;
 
 				
