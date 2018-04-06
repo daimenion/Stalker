@@ -13,8 +13,6 @@ public class GamOver : MonoBehaviour {
     void Start()
     {
 		anim = GetComponent<Animator> ();
-		dor.SetActive (false);
-		doo.SetActive (true);
     }
 
     // Update is called once per frame
@@ -28,8 +26,6 @@ public class GamOver : MonoBehaviour {
 		if (Keys.keycount == 0 && c.gameObject.tag == "Player") {
 			anim.SetBool ("open", true);
 			anim.SetTrigger ("opens");
-			dor.SetActive (true);
-			doo.SetActive (false);
 		}
     }
     public void LoadScene(int SceneIndex)
@@ -37,4 +33,6 @@ public class GamOver : MonoBehaviour {
 
         SceneManager.LoadScene(SceneIndex);
     }
+
+	
 }

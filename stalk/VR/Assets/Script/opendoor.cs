@@ -13,12 +13,12 @@ public class opendoor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+			
 	}
 
 	void OnTriggerEnter (Collider c)
 	{
-		if (c.gameObject.tag == "opened") {
+		if (c.gameObject.tag == "Player") {
 			dor.SetActive (true);
 			doo.SetActive (false);
 		}
