@@ -13,7 +13,7 @@ public class seePlayer : MonoBehaviour {
 	public AudioSource scream;
 	bool detected;
 
-	public float speed = 5f;
+	public float speed = 6f;
 	// Use this for initialization
 	void Start () {
 		target = GameObject.FindGameObjectWithTag ("Player").transform;

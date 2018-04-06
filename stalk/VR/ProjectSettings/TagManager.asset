@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Boundary
   - Key
+  - opened
   layers:
   - Default
   - TransparentFX

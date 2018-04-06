@@ -25,7 +25,7 @@ public class GamOver : MonoBehaviour {
 
     void OnTriggerEnter(Collider c)
     {
-		if (Keys.keycount == 4 && c.gameObject.tag == "Player") {
+		if (Keys.keycount == 0 && c.gameObject.tag == "Player") {
 			anim.SetBool ("open", true);
 			anim.SetTrigger ("opens");
 			dor.SetActive (true);

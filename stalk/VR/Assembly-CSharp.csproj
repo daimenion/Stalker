@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\Hints.cs" />
      <Compile Include="Assets\Script\Keys.cs" />
      <Compile Include="Assets\Script\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Script\opendoor.cs" />
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\Scenechange.cs" />
      <Compile Include="Assets\Script\seePlayer.cs" />
