@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 27
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 12
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,9 +343,9 @@ MonoBehaviour:
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6f5ffff
-    m_LastClickedID: -2602
-    m_ExpandedIDs: a6fbffff00000000
+    m_SelectedIDs: f2290000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8afbffff92fbffffa6fbffff000000001a3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.7078094, y: -3.7231607, z: 16.214823}
+    m_Target: {x: 15.569869, y: 2.1010792, z: -3.9174895}
     speed: 2
-    m_Value: {x: -4.7078094, y: -3.7231607, z: 16.214823}
+    m_Value: {x: 15.569869, y: 2.1010792, z: -3.9174895}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -425,20 +425,20 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.150381, y: 0.39677867, z: -0.06607033, w: -0.9030985}
+    m_Target: {x: 0.057770718, y: 0.92521, z: -0.15691726, w: 0.34062585}
     speed: 2
-    m_Value: {x: -0.150381, y: 0.39677867, z: -0.06607033, w: -0.9030985}
+    m_Value: {x: 0.057770718, y: 0.92521, z: -0.15691726, w: 0.34062585}
   m_Size:
-    m_Target: 27.13954
+    m_Target: 11.300441
     speed: 2
-    m_Value: 27.13954
+    m_Value: 11.300441
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.043837037, y: -0.4523844, z: 0.10583198, w: 0.8844356}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.15038101, y: 0.39677867, z: -0.06607033, w: -0.9030986}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
@@ -555,19 +555,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Audio
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jack huang\Documents\GitHub\Stalker\stalk\VR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 39}
-    m_SelectedIDs: cc280000
-    m_LastClickedID: 10444
-    m_ExpandedIDs: 00000000cc280000a8290000762a0000822b0000342e0000462e0000542e00002a31000028370000cc37000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 11}
+    m_SelectedIDs: a4370000
+    m_LastClickedID: 14244
+    m_ExpandedIDs: 00000000cc280000a8290000762a0000822b0000342e0000462e00002a31000028370000cc37000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
