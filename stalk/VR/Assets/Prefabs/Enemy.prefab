@@ -1233,7 +1233,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
+  m_Intensity: 6
   m_Range: 13
   m_SpotAngle: 51.245728
   m_CookieSize: 10
@@ -1277,7 +1277,7 @@ MonoBehaviour:
     m_Bits: 256
   m_Animator: {fileID: 95609489253180016}
   scream: {fileID: 82817297287449968}
-  speed: 5
+  speed: 6
 --- !u!136 &136791806474286550
 CapsuleCollider:
   m_ObjectHideFlags: 1
